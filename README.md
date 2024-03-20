@@ -8,14 +8,10 @@ was written with c
 int main() {
     char operator;
     double num1, num2, result;
-
-    // Input
     printf("Enter operator (+, -, *, /): ");
     scanf("%c", &operator);
     printf("Enter two numbers (for calcultating): ");
     scanf("%lf %lf", &num1, &num2);
-
-    // Perform calculation based on operator
     switch(operator) {
         case '+':
             result = num1 + num2;
